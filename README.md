@@ -1,18 +1,36 @@
-# radius-manager
-#An enterprise wifi account management system
-I've been researching enterprise-grade wireless account management solutions. While 802.1x and FreeRADIUS are effective, configuring FreeRADIUS is notoriously complex due to its lack of a graphical user interface. To address this, I've developed a user-friendly WiFi account management system specifically designed for FreeRADIUS.
+##  FreeRADIUS-Simplified: A User-Friendly WiFi Account Management System
 
-Here are its key features:
+Tired of wrestling with FreeRADIUS's complex configuration? This system simplifies wireless account management for enterprises, making it a breeze to secure and manage your network.
 
-1. **Organizational Structure Alignment:** The system mirrors your company's organizational structure for intuitive network management.
-2. **Seamless Office Roaming:** A single account grants access across all company offices, regardless of location.
-3. **TLS Certificate-Based Encryption:** Secure communication through certificates, with easy upload functionality for certificate files.
-4. **Centralized Multi-NAS Management:**  Unified control over multiple Network Access Servers (NAS) across geographically dispersed offices.
-5. **Flexible User Account Control:** Easily manage user permissions and organizational affiliations using priority-based organization settings.
-6. **Intuitive Statistical Charts:** Visualize certification and accounting data through insightful charts and graphs.
-7. **User VLAN Management:** Assign VLANs to users via RADIUS, enabling differentiated DHCP and IP address allocation.
-8. **OpenLDAP Integration for Extended Authentication:** Integrate with OpenLDAP for streamlined authentication across multiple applications, allowing for both RADIUS and LDAP authentication with a single action. 
-9. **Third-Party System Integration:** Connect with existing systems like OA and ERP for automated employee onboarding and offboarding, streamlining network account management.
-10. **Automated Reporting and Monitoring:** Receive real-time alerts and reports via integrated chatbot notifications for proactive issue identification and resolution.
-11. **Granular System Permissions:**  Enhance security and control with customizable administrator roles and permissions. 
+### Problem
+
+While 802.1x and FreeRADIUS offer robust network security, configuring FreeRADIUS can be a daunting task due to its command-line interface and intricate settings. 
+
+### Solution
+
+This system provides an intuitive, user-friendly interface built specifically for FreeRADIUS, eliminating the configuration headaches and streamlining your WiFi account management.
+
+### Key Features
+
+* **Organizational Structure Alignment:** Mirror your company's organizational structure within the system for intuitive network management.
+* **Seamless Office Roaming:** Enable employees to connect seamlessly across all company offices with a single account.
+* **TLS Certificate-Based Encryption:** Secure all communications with robust TLS certificate encryption, easily uploading and managing certificates.
+* **Centralized Multi-NAS Management:**  Effortlessly manage multiple Network Access Servers (NAS) from a central location, regardless of their physical distribution.
+* **Flexible User Account Control:**  Gain granular control over user permissions and organizational affiliations, simplifying user management tasks.
+* **Intuitive Statistical Charts:**  Visualize key data like certification and accounting metrics through clear and informative charts.
+* **User VLAN Management:**  Assign specific VLANs to users via RADIUS, enabling differentiated DHCP and IP address allocation for enhanced security and network segmentation.
+* **OpenLDAP Integration for Extended Authentication:** Integrate seamlessly with OpenLDAP to streamline authentication across various applications, utilizing both RADIUS and LDAP authentication with a single action.
+* **Third-Party System Integration:**  Connect with existing OA and ERP systems to automate employee onboarding and offboarding, simplifying network account lifecycle management.
+* **Automated Reporting and Monitoring:**  Stay informed with real-time alerts and reports delivered directly to your chatbot, enabling proactive issue identification and resolution.
+* **Granular System Permissions:**  Maintain tight security and control by defining custom administrator roles with specific permissions.
+
+###  More Introduction
+
+[Home Site](https://www.sesswifi.com)
+
+### Online Demo 
+
+[Online Demo](https://demo.sesswifi.com/admin/)
+
+### 
 
